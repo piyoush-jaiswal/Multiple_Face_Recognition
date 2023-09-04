@@ -1,10 +1,3 @@
-'''A Flask application to run the face recognition app using dlib and OpenCV on stored video or
-IP cam stream
-
-Authors: Anubhav Patrick
-Date: 21/02/2023 
-'''
-
 import os.path
 import validators #for validating the ip cam url
 from flask import Flask, render_template, request, Response
